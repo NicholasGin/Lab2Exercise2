@@ -5,6 +5,6 @@
 
 <AnchorPane xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SampleHandler.SampleHandlerController">
    <children>
-      <Label fx:id="jumpingLabel" onMouseEntered="#movinglabel" text="Try Touching Me!" />
+      <Label fx:id="jumpingLabel" onMouseClicked="#movingLabel" text="Try Touching Me!" />
    </children>
 </AnchorPane>

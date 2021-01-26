@@ -7,7 +7,7 @@ public class SampleHandlerController {
     @FXML
     private Label jumpingLabel;
 
-    public void movinglabel(){
+    public void movingLabel() {
         Random randomPos = new Random();
         jumpingLabel.setLayoutX(randomPos.nextInt(500));
         jumpingLabel.setLayoutY(randomPos.nextInt(300));
